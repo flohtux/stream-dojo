@@ -2,6 +2,13 @@ plugins {
     id("java-library")
 }
 
+java {
+    toolchain {
+        // Install JDK with specific version
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
