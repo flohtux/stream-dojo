@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "stream-dojo"
-include("lib")
+include("stream-dojo-lib")
