@@ -10,8 +10,7 @@ public class StreamDojo implements IStreamDojo {
 
     @Override
     public Stream<String> streamOfNames() {
-        // TODO Auto-generated method stub
-        return null;
+        return List.of("Homer Simpson", "Bart Simpson", "Lisa Simpson").stream();
     }
 
     @Override
