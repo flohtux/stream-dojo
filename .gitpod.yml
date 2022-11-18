@@ -3,3 +3,4 @@ vscode:
   extensions:
     - vscjava.vscode-java-pack
     - vscjava.vscode-java-test
+    - redhat.java
